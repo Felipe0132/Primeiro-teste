@@ -46,8 +46,14 @@ nav > a:hover {
     color: var(--cor2);
 }
 
-main{
+body{
     background-color: var(--cor2);
+}
+
+main {
+    margin: 8px 20px;
+    padding: 1px 1px;
+    background-color: white;
 }
 
 article {
@@ -58,6 +64,11 @@ background-repeat: no-repeat; /* Evita a repetição da imagem */
 height: 100vh; /* Garante que o corpo ocupe pelo menos a altura da tela */
 margin: 0px;
 height: 500px;
+}
+
+article {
+    columns: 2;
+    list-style-position: inside;
 }
 
 h1{
