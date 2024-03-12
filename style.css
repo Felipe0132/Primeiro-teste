@@ -1,0 +1,19 @@
+@charset "UFT-8"
+
+:root{
+    --cor0: #fadada;
+    --cor1: #973000;
+    --cor2: #f87d7d;
+    --cor3: #ff5858;
+    --cor4: #e74040;
+    --cor5: #ff0000;
+
+    --font-padrao: sans-serif;
+    --fonte-destaque: 'Lato';
+    --font-secundaria: 'Roboto';
+}   
+
+* {
+  margin: 0px;
+  padding: 0px;   
+}
