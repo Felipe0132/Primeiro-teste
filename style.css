@@ -1,4 +1,4 @@
-@charset "UFT-8"
+@charset "UFT-8";
 
 :root{
     --cor0: #fadada;
@@ -16,4 +16,41 @@
 * {
   margin: 0px;
   padding: 0px;   
+}
+
+body {
+    background-color: white;
+}
+
+header {
+    margin: auto;
+    width: 75%;
+}
+
+nav {
+    background-image:linear-gradient(to top, var(--cor5), var(--cor3));
+    box-shadow: 0px 5px 7px black;
+    padding: 10px 10px;
+}
+
+nav > a{
+    padding: 15px 15px;
+    color:  white;
+    text-decoration: none;
+    transition-duration: .5s;
+    margin: 5px 10px;
+    font-family: sans-serif;
+}
+
+nav > a:hover {
+    color: var(--cor2);
+}
+
+main{
+background-image: url('caminho/para/sua/imagem.jpg');
+background-size: cover; /* Ajusta o tamanho da imagem para cobrir todo o corpo */
+background-position: center; /* Centraliza a imagem no corpo */
+background-repeat: no-repeat; /* Evita a repetição da imagem */
+height: 100vh; /* Garante que o corpo ocupe pelo menos a altura da tela */
+margin: 0; /* Remove margens padrão do corpo */
 }
