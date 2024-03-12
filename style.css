@@ -46,6 +46,10 @@ nav > a:hover {
     color: var(--cor2);
 }
 
+main{
+    background-color: var(--cor2);
+}
+
 article {
 background-image: url('Imagens/Imagem\ fundo.png');
 background-size: cover; /* Ajusta o tamanho da imagem para cobrir todo o corpo */
