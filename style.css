@@ -1,5 +1,7 @@
 @charset "UFT-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Benne&family=Carrois+Gothic+SC&family=Mukta:wght@200;300;400;500;600;700;800&family=Truculenta:opsz,wght@12..72,100..900&display=swap');
+
 :root{
     --cor0: #fadada;
     --cor1: #973000;
@@ -12,6 +14,7 @@
     --fonte-destaque: 'Lato';
     --font-secundaria: 'Roboto';
 }   
+
 
 * {
   margin: 0px;
@@ -73,17 +76,21 @@ article > p{
 }
 
 h1{
-    font-family: sans-serif;
+    font-family: "Carrois Gothic SC", sans-serif;
     padding: 20px 5px 15px 20px;
     margin: 7px;
     font-size: 2em;
+    font-weight: bold;
+    font-style: ;    
 }
 
 p {
     padding: 5px;
     margin: 2px;
-    font-family: sans-serif;
+    margin-left: 20px;
     text-align: justify;
+    font-family: "Mukta", sans-serif;
+    font-weight: 500;
 }
 
 #Contatos {
@@ -91,6 +98,7 @@ p {
     list-style-position: inside;
     columns: 3;
     text-decoration: none;
+    margin-left: 20px;
 }
 
 #Contatos a:hover {
@@ -102,6 +110,7 @@ p {
     list-style-position: inside;
     columns: 4;
     text-decoration: none;
+    margin-left: 20px;
 }
 
 #Parceiros a:hover{
